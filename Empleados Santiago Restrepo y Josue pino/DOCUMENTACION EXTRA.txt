@@ -1,0 +1,32 @@
+DOCUMENTACION EXTRA 
+1. Algoritmo de Ordenamiento Bubble-Sort
+
+En este proyecto, los métodos OrdenarPorNombre y OrdenarPorSalario funcionan como un bubble-sort:
+	1.	Recorrido Repetido: Se comparan nodos contiguos en varias pasadas.
+	2.	Comparación e Intercambio:
+	•	Si están fuera de orden (ej. actual.Salario > actual.Siguiente.Salario en orden ascendente), se intercambian los atributos (nombre, ID, salario).
+	3.	Finalización: Cuando en una pasada no ocurren intercambios, la lista está ordenada.
+
+Ventajas:
+	•	Fácil Implementación: No se crean copias ni estructuras adicionales.
+	•	Recorrido Bidireccional (opcional): Aunque bubble-sort solo avanza de cabeza a cola, con una DLL podríamos retroceder para revisar cambios.
+
+Desventajas:
+	•	Complejidad O(n²): No es el algoritmo más rápido para grandes cantidades de datos.
+	•	Aun así, es suficiente para esta actividad de prueba y cumple con la exigencia de modificar la lista “in situ”.
+
+2. Potenciales Extensiones
+	1.	Algoritmos de Ordenamiento más Eficientes
+	•	Merge sort o insertion sort adaptado a listas doblemente ligadas podría mejorar el rendimiento en grandes volúmenes.
+	2.	Persistencia de Datos
+	•	Guardar y cargar la lista desde un archivo o base de datos para hacer el sistema más robusto.
+	3.	Interfaz Gráfica
+	•	Reemplazar la consola por una GUI, facilitando la experiencia de usuario.
+
+4. Referencias y Hallazgos
+	
+    Wikipedia (Bubble Sort): https://es.wikipedia.org/wiki/Ordenamiento_burbuja 
+    GeeksforGeeks (Bubble Sort): https://www.geeksforgeeks.org/bubble-sort/ 
+    Programiz (Bubble Sort): https://www.programiz.com/dsa/bubble-sort 
+    Wikipedia (Merge Sort): https://es.wikipedia.org/wiki/Ordenamiento_por_fusion 
+    GeeksforGeeks (Merge Sort for Linked List): https://www.geeksforgeeks.org/merge-sort-for-linked-list/ 
